@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: #171616;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+::-webkit-inner-spin-button { display: none; }
+
+
+@font-face{
+    font-family: tung;
+    src: url(../../Arquivos/font/Tungsten-Bold.ttf);
+}
+
+.conteudo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #171616;
+}
+.conteudo #titulo{
+    margin-top: 10px;
+    width: 500px;
+    height: 5vh;
+    margin:auto;
+    color: white;
+    font-family: tung;
+    font-size: 60px;
+    margin-bottom: 3%;
+    text-align: center;
+
+}
+.noticia{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    height: 30vh;
+    background-color:#2c2b2b;
+    margin: auto;
+    margin-bottom: 1%;
+}
+.noticia .imagem{
+    width: 30%;
+    height: 30vh;
+    background-color:#7f7f7f;
+    float:left;
+}
+
+.noticia .dados{
+    width: 70%;
+    height: 30vh;
+    float:right;
+}
+
+.noticia .dados .titulo{
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    width: 85%;
+    height: 20%;
+    margin-left: 2%;
+    margin-top: 2.5%;
+    display: inline-block;
+}
+.noticia .dados .editar .link1{
+    color:white;
+}
+.noticia .dados .editar .link2{
+    color:white;
+    margin-top: 50px;
+}
+
+.noticia .dados .editar{
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    width: 10%;
+    height: 20%;
+    margin-top: 2.5%;
+    margin-left: 2%;
+    display: inline-block;
+}
+.noticia .dados .descricao{
+    color:white;
+    text-transform: capitalize;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 95%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+}
+.noticia .dados .infos{
+    width: 95%;
+    height: 10%;
+    margin: auto;
+}
+.noticia .dados .infos .autor{
+    color:rgb(172, 172, 172);
+    text-transform: lowercase;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.noticia .dados .infos .data{
+    color:rgb(172, 172, 172);
+    text-transform: lowercase;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.campoImagem{
+    border: 1px solid #66666600;
+    width: 90%;
+    height: 90%;
+    word-break:break-all;
+    white-space:normal;
+    margin-left: 5%;
+    background-color: transparent;
+    outline: 0;
+    color: white;
+    font-weight: bold;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+ }
+.campoTitulo{
+    border: 1px solid #66666600;
+    background-color: transparent;
+    outline: 0;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+ }
+ .campoDescricao{
+    width: 100%;
+    border: 1px solid #66666600;
+    background-color: transparent;
+    outline: 0;
+    color: white;
+    text-transform: capitalize;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;
+ }
+ .campoAutor{
+    width: 50%;
+    border: 1px solid #66666600;
+    background-color: transparent;
+    outline: 0;
+    color:rgb(172, 172, 172);
+    text-transform: lowercase;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;
+ }
+ .campoData{
+    width: 50%;
+    border: 1px solid #66666600;
+    background-color: transparent;
+    outline: 0;
+    color:rgb(172, 172, 172);
+    text-transform: lowercase;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;
+ }
+ .botao{
+    background-color:#2c2b2b;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0);
+    font-size: 0.4em;
+    text-align: center;
+ }
+ .botao:hover{
+    background-color:#2c2b2b;
+    color: rgb(27, 237, 27);
+    border: 1px solid rgba(255, 255, 255, 0);
+    font-size: 0.4em;
+    text-align: center;
+ }
+ 
+
